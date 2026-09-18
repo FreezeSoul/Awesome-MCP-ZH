@@ -1077,6 +1077,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [aurumflux20/fencescan](https://github.com/aurumflux20/fencescan) | 扫描 MCP 服务器代码，找出重试后可能重复执行的工具调用（如重复扣款、重复发送）。只给出证据和候选项，不给判定——真正的判断需要读代码。零依赖，`npx fencescan` 直接运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 零依赖, 重试安全 (retry-safety) 静态扫描, MIT。 |
 | [AgentGate](https://github.com/wookat/agentgate) | MCP 服务器供应链安全门禁：安全扫描（工具投毒/凭证泄露/SSRF/RCE）+ 工具面锁文件（防 rug-pull）+ CI 漂移门禁（GitHub Action/pre-commit）+ 公开安全通报库，[含中文文档](https://github.com/wookat/agentgate/blob/main/README.zh-CN.md)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 供应链安全门禁, Apache 2.0。 |
 | [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) | 面向红队与漏洞研究的 MCP 服务器，把 150+ 安全工具（Nmap、Nuclei、Ghidra、Burp 等）编排给 AI Agent 调用，覆盖侦察、漏洞扫描、二进制分析与云安全评估。仅限授权测试场景。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 安全工具编排。 |
+| [Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP) | ThreatCluster 威胁情报：事件聚类、已验证 IOC、CVE/KEV/EPSS 查询、勒索软件泄露站受害者、实体画像。托管端点 `https://threatcluster.io/mcp`，或 `npx -y threatcluster-mcp`，需免费 API key。 | 官方实现 (ThreatCluster) 🎖️, Node/Python 开发, 云端/本地 🏠☁️, 威胁情报。 |
 
 ---
 
