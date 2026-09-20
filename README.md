@@ -182,6 +182,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://mcplato.com/) | [MCP 接入指南](https://mcplato.com/en/blog/mcp-integration-guide/)
   - **Tips**：支持 Windows 和 macOS，适合需要在项目边界内管理 MCP 工具与长期任务的用户。
 
+- **KinetAios**
+  - **简介**：本地优先的多引擎 AI Agent 仪表盘，一个窗口并排运行 Claude Code、Codex 与内置 ReAct 引擎。
+  - **功能**：既是 MCP 客户端也是 MCP 服务器（双向集成），支持跨引擎共享长期记忆（本地 SQLite/FTS5）、KINET.md 项目规则注入、40+ 内置工具、多 Agent 团队调度，数据全部本地存储，无需账号与中转服务器。
+  - **链接**：[GitHub 仓库](https://github.com/phinn/KinetAios) | [官网](https://phinn.github.io/KinetAios/)
+  - **Tips**：GPL-3.0 开源，支持 Windows 和 macOS；MCP 双向 + 跨引擎记忆是差异化亮点。
+
 - **Cline**
   - **简介**：VS Code 中的自主编程 Agent，也提供 SDK/CLI 形态。
   - **功能**：原生 MCP 客户端，可读写文件、运行命令，并可安装 MCP 服务器扩展能力。
