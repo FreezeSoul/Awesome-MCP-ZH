@@ -376,6 +376,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tersePrompts/jarp-mcp](https://github.com/tersePrompts/jarp-mcp) | Java Archive Reader Protocol - 为 AI 代理提供对 Maven 依赖中反编译 Java 代码的即时访问，如同为 AI 装上"X 光透视眼"。 | 社区实现 🌟, Node.js/Java 开发 ☕🟢, 本地运行 🏠, Java 类分析与反编译, CFR 内置, 智能缓存 |
 | [tersePrompts/fastMCP4J](https://github.com/tersePrompts/fastMCP4J) | Java 语言构建 MCP 服务器的轻量级注解驱动框架，JSON Schema 2020-12 兼容，安全、快速、零配置。 | 社区实现 🌟, Java 开发 ☕, 本地运行 🏠, 注解驱动, 12 个依赖, 支持异步、内存、任务、文件操作 |
 | [wopee-mcp](https://www.npmjs.com/package/wopee-mcp) | Web应用AI测试代理，支持调度测试运行、分析爬虫和AI代理测试，获取工件和项目状态。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI 测试代理。 |
+| [squirrelscan](https://github.com/squirrelscan/squirrelscan) | 面向编码代理（Claude Code、Cursor 等）的网站审计工具：运行 260+ 条规则检查 SEO、性能、安全、无障碍与 Agent 体验问题，并给出可直接映射到源码的修复建议；通过 MCP 可从任意客户端发起审计、读取报告并修复问题。 | 官方实现 (squirrelscan) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://mcp.squirrelscan.com/mcp` (OAuth), CLI 与规则 MIT 开源, 本地审计免费, 提供 GitHub Action。 |
 | [memtrace](https://github.com/syncable-dev/memtrace-public) | 面向编码代理的结构化内存层，通过 AST 构建双时态知识图谱，为 Claude、Cursor 等 MCP 客户端提供低延迟代码理解与检索能力。 | 社区实现，Rust 核心 🦀，MCP 服务 ☁️，代码智能与代理记忆。 | 
 | [ozgurcd/gograph](https://github.com/ozgurcd/gograph) | 纯本地的 Go 静态分析引擎，内置 MCP 服务器，为 AI 编程代理提供确定性的结构感知：调用图、影响分析、符号搜索等。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, Go 调用图与影响分析。 |
 | [lightbearco/tupper](https://github.com/lightbearco/tupper) | 面向 AI 代理的开源沙箱，在本机安全运行不受信任的 AI 生成代码、Shell 命令与文件读写。基于 Apple Containers，提供 E2B 风格的 TypeScript SDK，内置 MCP 服务器、CLI 与 HTTP API（macOS 用 Apple Containers，Linux/Windows 经 Firecracker/WSL）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 自托管代码执行沙箱, MIT。 |
